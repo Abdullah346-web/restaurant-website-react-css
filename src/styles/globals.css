@@ -1,0 +1,14 @@
+/* Global helpers and minor resets */
+.container {
+	max-width: var(--container-max);
+	margin: 0 auto;
+	padding: 0 1rem;
+}
+
+.section {
+	padding: 3rem 0;
+}
+
+a {
+	text-decoration: none;
+}

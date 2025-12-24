@@ -1,0 +1,47 @@
+:root {
+	/* Fork & Fire Gradient Theme - Hot Ember & Warm Glow */
+	
+	/* Primary Gradients */
+	--gradient-primary: linear-gradient(135deg, #ff7a18, #ff3d00);
+	--gradient-secondary: linear-gradient(135deg, #ff9e5a, #ffb88c);
+	--gradient-soft: linear-gradient(135deg, #fff7f2 0%, #ffe8dc 100%);
+	--gradient-navbar: linear-gradient(135deg, rgba(255, 255, 255, 0.95), rgba(255, 247, 242, 0.95));
+	--gradient-text: linear-gradient(135deg, #ff7a18, #ff3d00);
+	--gradient-hover: linear-gradient(135deg, #ff8c2e, #ff5722);
+	
+	/* Colors */
+	--color-bg: #ffffff;
+	--color-bg-light: #f9f9f9;
+	--color-text: #1a1a1a;
+	--color-text-light: #333333;
+	--color-muted: #666666;
+	--color-white: #ffffff;
+	
+	/* Gradients for specific elements */
+	--gradient-button: linear-gradient(135deg, #ff7a18, #ff3d00);
+	--gradient-button-hover: linear-gradient(135deg, #ff8c2e, #ff5722);
+	--gradient-underline: linear-gradient(90deg, #ff7a18, #ff3d00);
+	
+	/* Spacing & Layout */
+	--container-max: 1200px;
+	--spacing: 1rem;
+	--spacing-sm: 0.5rem;
+	--spacing-lg: 2rem;
+	--spacing-xl: 4rem;
+	
+	/* Border Radius */
+	--radius-sm: 4px;
+	--radius-md: 8px;
+	--radius-lg: 16px;
+	--radius-full: 9999px;
+	
+	/* Shadows */
+	--shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.08);
+	--shadow-md: 0 4px 16px rgba(0, 0, 0, 0.12);
+	--shadow-lg: 0 8px 32px rgba(0, 0, 0, 0.16);
+	
+	/* Transitions */
+	--transition-fast: 0.2s ease-in-out;
+	--transition-medium: 0.3s ease-in-out;
+	--transition-slow: 0.5s ease-in-out;
+}

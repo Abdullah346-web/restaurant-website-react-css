@@ -91,16 +91,26 @@ export default function Home() {
 					
 					<div className="gallery-grid">
 						{[
-							{ icon: '🍽️', label: 'Elegant Dining' },
-							{ icon: '👨‍🍳', label: 'Expert Chefs' },
-							{ icon: '🥂', label: 'Fine Drinks' },
-							{ icon: '🌟', label: 'Premium Service' }
-						].map((item) => (
-							<motion.div key={item.label} className="gallery-item" variants={itemVariants}>
-								<div className="gallery-placeholder">
-									<span>{item.icon}</span>
-									<p>{item.label}</p>
+							{ icon: '🍽️', label: 'Elegant Dining', description: 'Refined atmosphere for memorable moments' },
+							{ icon: '👨‍🍳', label: 'Expert Chefs', description: 'Culinary masters crafting perfection' },
+							{ icon: '🥂', label: 'Fine Drinks', description: 'Premium selection of beverages' },
+							{ icon: '🌟', label: 'Premium Service', description: 'Attention to every detail' }
+						].map((item, index) => (
+							<motion.div 
+								key={item.label} 
+								className="gallery-card"
+								variants={itemVariants}
+								custom={index}
+							>
+								<div className="gallery-card__icon-wrapper">
+									<span className="gallery-card__icon">{item.icon}</span>
+									<div className="gallery-card__glow"></div>
 								</div>
+								<div className="gallery-card__content">
+									<h3 className="gallery-card__title">{item.label}</h3>
+									<p className="gallery-card__description">{item.description}</p>
+								</div>
+								<div className="gallery-card__border"></div>
 							</motion.div>
 						))}
 					</div>

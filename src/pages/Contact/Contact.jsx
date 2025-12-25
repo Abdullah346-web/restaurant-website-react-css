@@ -12,7 +12,7 @@ export default function Contact() {
 						<div className="contact-card">
 							<div className="contact-icon">📍</div>
 							<h3>Location</h3>
-							<p>123 Culinary Street<br/>Downtown, City 12345</p>
+							<p>PECHS, Block B<br/>karachi, Pakistan</p>
 						</div>
 						
 						<div className="contact-card">

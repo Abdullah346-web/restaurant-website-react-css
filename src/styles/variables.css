@@ -4,7 +4,7 @@
 	/* Primary Gradients */
 	--gradient-primary: linear-gradient(135deg, #ff7a18, #ff3d00);
 	--gradient-secondary: linear-gradient(135deg, #ff9e5a, #ffb88c);
-	--gradient-soft: linear-gradient(135deg, #fff7f2 0%, #ffe8dc 100%);
+	--gradient-soft: linear-gradient(135deg, #fef1e8 0%, #fde4d0 100%);
 	--gradient-navbar: linear-gradient(135deg, rgba(255, 255, 255, 0.95), rgba(255, 247, 242, 0.95));
 	--gradient-text: linear-gradient(135deg, #ff7a18, #ff3d00);
 	--gradient-hover: linear-gradient(135deg, #ff8c2e, #ff5722);

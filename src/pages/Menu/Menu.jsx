@@ -13,52 +13,52 @@ const categoryData = [
 
 const dishesByCategory = {
 	'main-course': [
-		{ name: 'Fire-Grilled Ribeye', desc: 'Prime ribeye, ember char, truffle jus', price: '$42', tag: '🌶️', image: '../src/assets/images/ribeye.jpeg' },
-		{ name: 'Smoked Lamb Shank', desc: 'Slow braise, rosemary glaze, root mash', price: '$36', tag: '🔥', image: '../src/assets/images/lamb.jpeg' },
-		{ name: 'Seared Salmon', desc: 'Citrus butter, charred broccolini', price: '$29', tag: '🌿', image: '../src/assets/images/salmon.jpeg' },
-		{ name: 'Ember Roast Chicken', desc: 'Harissa rub, confit garlic, charred lemon', price: '$27', image: '../src/assets/images/chicken.jpeg' },
-		{ name: 'Charred Sea Bass', desc: 'Fennel salad, saffron beurre blanc', price: '$31', image: '../src/assets/images/seabass.jpeg' },
-		{ name: 'Wild Mushroom Risotto', desc: 'Parmesan crisp, herb oil', price: '$24', tag: '🌿', image: '../src/assets/images/risotto.jpeg' }
+		{ name: 'Fire-Grilled Ribeye', desc: 'Prime ribeye, ember char, truffle jus', price: '$42', tag: '🌶️', image: '../src/assets/images/dishes/ribeye.jpeg' },
+		{ name: 'Smoked Lamb Shank', desc: 'Slow braise, rosemary glaze, root mash', price: '$36', tag: '🔥', image: '../src/assets/images/dishes/lamb.jpeg' },
+		{ name: 'Seared Salmon', desc: 'Citrus butter, charred broccolini', price: '$29', tag: '🌿', image: '../src/assets/images/dishes/salmon.jpeg' },
+		{ name: 'Ember Roast Chicken', desc: 'Harissa rub, confit garlic, charred lemon', price: '$27', image: '../src/assets/images/dishes/chicken.jpeg' },
+		{ name: 'Charred Sea Bass', desc: 'Fennel salad, saffron beurre blanc', price: '$31', image: '../src/assets/images/dishes/seabass.jpeg' },
+		{ name: 'Wild Mushroom Risotto', desc: 'Parmesan crisp, herb oil', price: '$24', tag: '🌿', image: '../src/assets/images/dishes/risotto.jpeg' }
 	],
 	appetizers: [
-		{ name: 'Charred Prawns', desc: 'Garlic-chili butter, lemon ash', price: '$16', tag: '🌶️', image: '../src/assets/images/prawns.jpeg' },
-		{ name: 'Burrata Ember', desc: 'Heirloom tomato, basil oil, sourdough', price: '$14', tag: '🌿', image: '../src/assets/images/burrata.jpeg' },
-		{ name: 'Crispy Calamari', desc: 'Smoked paprika aioli, citrus zest', price: '$15', image: '../src/assets/images/calamari.jpeg' },
-		{ name: 'Embered Flatbread', desc: 'Whipped feta, pickled chili, herbs', price: '$13', image: '../src/assets/images/flatbread.jpeg' },
-		{ name: 'Truffle Arancini', desc: 'Porcini ragù, parmesan snow', price: '$14', image: '../src/assets/images/arancini.jpeg' },
-		{ name: 'Roasted Beet Carpaccio', desc: 'Citrus vinaigrette, pistachio crunch', price: '$12', tag: '🌿', image: '../src/assets/images/carpaccio.jpeg' }
+		{ name: 'Charred Prawns', desc: 'Garlic-chili butter, lemon ash', price: '$16', tag: '🌶️', image: '../src/assets/images/dishes/prwans.jpeg' },
+		{ name: 'Burrata Ember', desc: 'Heirloom tomato, basil oil, sourdough', price: '$14', tag: '🌿', image: '../src/assets/images/dishes/burrata.jpg' },
+		{ name: 'Crispy Calamari', desc: 'Smoked paprika aioli, citrus zest', price: '$15', image: '../src/assets/images/dishes/calamari.jpeg' },
+		{ name: 'Embered Flatbread', desc: 'Whipped feta, pickled chili, herbs', price: '$13', image: '../src/assets/images/dishes/flatbread.jpeg' },
+		{ name: 'Truffle Arancini', desc: 'Porcini ragù, parmesan snow', price: '$14', image: '../src/assets/images/dishes/arancini.jpeg' },
+		{ name: 'Roasted Beet Carpaccio', desc: 'Citrus vinaigrette, pistachio crunch', price: '$12', tag: '🌿', image: '../src/assets/images/dishes/carpaccio.jpeg' }
 	],
 	desserts: [
-		{ name: 'Molten Chocolate', desc: 'Smoked salt caramel, vanilla bean ice cream', price: '$12', image: '../src/assets/images/chocolate.jpeg' },
-		{ name: 'Crème Brûlée', desc: 'Earl grey infusion, burnt sugar top', price: '$11', image: '../src/assets/images/brulee.jpeg' },
-		{ name: 'Berry Pavlova', desc: 'Crisp meringue, citrus curd, fresh berries', price: '$10', tag: '🌿', image: '../src/assets/images/pavlova.jpeg' },
-		{ name: 'Citrus Basque Cheesecake', desc: 'Orange blossom cream, charred citrus', price: '$11', image: '../src/assets/images/cheesecake.jpeg' },
-		{ name: 'Affogato', desc: 'Espresso over vanilla gelato, biscotti', price: '$8', image: '../src/assets/images/affogato.jpeg' },
-		{ name: 'Sticky Toffee Pudding', desc: 'Warm date cake, smoked toffee sauce', price: '$10', image: '../src/assets/images/toffee.jpeg' }
+		{ name: 'Molten Chocolate', desc: 'Smoked salt caramel, vanilla bean ice cream', price: '$12', image: '../src/assets/images/dishes/chocolate.jpeg' },
+		{ name: 'Crème Brûlée', desc: 'Earl grey infusion, burnt sugar top', price: '$11', image: '../src/assets/images/dishes/brulee.jpeg' },
+		{ name: 'Berry Pavlova', desc: 'Crisp meringue, citrus curd, fresh berries', price: '$10', tag: '🌿', image: '../src/assets/images/dishes/pavlova.jpeg' },
+		{ name: 'Citrus Basque Cheesecake', desc: 'Orange blossom cream, charred citrus', price: '$11', image: '../src/assets/images/dishes/cheesecake.jpeg' },
+		{ name: 'Affogato', desc: 'Espresso over vanilla gelato, biscotti', price: '$8', image: '../src/assets/images/dishes/affogato.jpeg' },
+		{ name: 'Sticky Toffee Pudding', desc: 'Warm date cake, smoked toffee sauce', price: '$10', image: '../src/assets/images/dishes/toffee.jpeg' }
 	],
 	vegeterian: [
-		{ name: 'Thai Red Curry', desc: 'Coconut, kaffir lime, charred veggies', price: '$24', tag: '🌶️', image: '../src/assets/images/curry.jpeg' },
-		{ name: 'Stuffed Bell Peppers', desc: 'Quinoa, black beans, melted pecorino', price: '$22', image: '../src/assets/images/peppers.jpeg' },
-		{ name: 'Zucchini Noodles', desc: 'Basil pesto, blistered tomato, pinenut', price: '$19', image: '../src/assets/images/zucchini.jpeg' },
-		{ name: 'Roasted Cauliflower Steak', desc: 'Chimichurri, golden raisins, almond', price: '$21', image: '../src/assets/images/cauliflower.jpeg' },
-		{ name: 'Grilled Halloumi Salad', desc: 'Charred citrus, mint, smoked honey', price: '$18', image: '../src/assets/images/halloumi.jpeg' },
-		{ name: 'Sweet Potato Gnocchi', desc: 'Brown butter sage, crispy kale', price: '$23', image: '../src/assets/images/gnocchi.jpeg' }
+		{ name: 'Thai Red Curry', desc: 'Coconut, kaffir lime, charred veggies', price: '$24', tag: '🌶️', image: '../src/assets/images/dishes/curry.jpeg' },
+		{ name: 'Stuffed Bell Peppers', desc: 'Quinoa, black beans, melted pecorino', price: '$22', image: '../src/assets/images/dishes/peppers.jpeg' },
+		{ name: 'Zucchini Noodles', desc: 'Basil pesto, blistered tomato, pinenut', price: '$19', image: '../src/assets/images/dishes/zucchini.jpeg' },
+		{ name: 'Roasted Cauliflower Steak', desc: 'Chimichurri, golden raisins, almond', price: '$21', image: '../src/assets/images/dishes/cauliflower.jpeg' },
+		{ name: 'Grilled Halloumi Salad', desc: 'Charred citrus, mint, smoked honey', price: '$18', image: '../src/assets/images/dishes/halloumi.jpeg' },
+		{ name: 'Sweet Potato Gnocchi', desc: 'Brown butter sage, crispy kale', price: '$23', image: '../src/assets/images/dishes/gnocchi.jpeg' }
 	],
 	drinks: [
-		{ name: 'Smoked Old Fashioned', desc: 'Bourbon, bitters, orange ember', price: '$14', image: '../src/assets/images/oldfashioned.jpeg' },
-		{ name: 'Citrus Spark', desc: 'Yuzu, tonic, rosemary smoke', price: '$12', image: '../src/assets/images/citrus.jpeg' },
-		{ name: 'Charcoal Lemonade', desc: 'Activated charcoal, mint, honey', price: '$10', image: '../src/assets/images/lemonade.jpeg' },
-		{ name: 'Espresso Martini', desc: 'Vodka, espresso, coffee liqueur', price: '$13', image: '../src/assets/images/espresso.jpeg' },
-		{ name: 'Mango Lassi', desc: 'Creamy yogurt, cardamom, mango', price: '$8', image: '../src/assets/images/lassi.jpeg' },
-		{ name: 'Rosemary Grapefruit Spritz', desc: 'Citrus soda, rosemary syrup, fizz', price: '$11', image: '../src/assets/images/spritz.jpeg' }
+		{ name: 'Smoked Old Fashioned', desc: 'Bourbon, bitters, orange ember', price: '$14', image: '../src/assets/images/dishes/oldfashioned.jpeg' },
+		{ name: 'Citrus Spark', desc: 'Yuzu, tonic, rosemary smoke', price: '$12', image: '../src/assets/images/dishes/citrus.jpeg' },
+		{ name: 'Charcoal Lemonade', desc: 'Activated charcoal, mint, honey', price: '$10', image: '../src/assets/images/dishes/lemonade.jpeg' },
+		{ name: 'Espresso Martini', desc: 'Vodka, espresso, coffee liqueur', price: '$13', image: '../src/assets/images/dishes/espresso.jpeg' },
+		{ name: 'Mango Lassi', desc: 'Creamy yogurt, cardamom, mango', price: '$8', image: '../src/assets/images/dishes/lassi.jpeg' },
+		{ name: 'Rosemary Grapefruit Spritz', desc: 'Citrus soda, rosemary syrup, fizz', price: '$11', image: '../src/assets/images/dishes/spritz.jpeg' }
 	],
 	specials: [
-		{ name: 'Truffle Night', desc: 'Shaved black truffle on signature mains', price: 'MP', image: '../src/assets/images/truffle.jpeg' },
-		{ name: 'Sunday Roast', desc: 'Slow roast, fire-kissed vegetables', price: '$38', image: '../src/assets/images/roast.jpeg' },
-		{ name: 'Seasonal Vegetable Medley', desc: 'Charred farm vegetables, herb oil', price: '$30', tag: '🌿', image: '../src/assets/images/vegetables.jpeg' },
-		{ name: 'Duck Confit', desc: 'Crispy leg, cider glaze, roasted shallot', price: '$40', image: '../src/assets/images/duck.jpeg' },
-		{ name: "Chef's Tasting Trio", desc: 'Three rotating bites from the chef', price: '$28', image: '../src/assets/images/tasting.jpeg' },
-		{ name: 'Fire & Ice Duo', desc: 'Hot brownie, frozen vanilla parfait', price: '$18', image: '../src/assets/images/duo.jpeg' }
+		{ name: 'Truffle Night', desc: 'Shaved black truffle on signature mains', price: 'MP', image: '../src/assets/images/dishes/truffle.jpeg' },
+		{ name: 'Sunday Roast', desc: 'Slow roast, fire-kissed vegetables', price: '$38', image: '../src/assets/images/dishes/roast.jpeg' },
+		{ name: 'Seasonal Vegetable Medley', desc: 'Charred farm vegetables, herb oil', price: '$30', tag: '🌿', image: '../src/assets/images/dishes/vegetables.jpeg' },
+		{ name: 'Duck Confit', desc: 'Crispy leg, cider glaze, roasted shallot', price: '$40', image: '../src/assets/images/dishes/duck.jpeg' },
+		{ name: "Chef's Tasting Trio", desc: 'Three rotating bites from the chef', price: '$28', image: '../src/assets/images/dishes/tasting.jpeg' },
+		{ name: 'Fire & Ice Duo', desc: 'Hot brownie, frozen vanilla parfait', price: '$18', image: '../src/assets/images/dishes/duo.jpeg' }
 	]
 }
 
